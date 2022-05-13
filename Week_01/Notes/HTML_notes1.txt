@@ -49,3 +49,20 @@ The style attribute is used to add styles to an element, such as color, font, si
 <pre></pre> Using these elements , will not ignore your whitespaces or formatting . The browser will dispaly it exactly as you write it in HTML. BUT, IT COMES WIHT ITS OWN FONT , SO IT WILL LOOK DIFFERENT FROM THE REST OF THE TEXT .
 The target attribute specifies where to open the linked document.This attribute goes inside the <a>link</a> tag .
 i.e <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+
+CSS Tutorial
+<link rel="stylesheet" href="mystyle.css"> - You must always add the style sheet to the HTML page inside the <head> tag .
+Here is the CSS syntax : h1 {color: red; text: bold;} Where h1 is the selector(html tag/element) , semicolons(these are the blocks), attribute is preceded by a : and followed by a value of the attribute.
+.heading is a selector that calls a class. (Put period , followed by the name of the class)
+p.subtitles - Here there is both an element and a class. This specifies a specific class within a specific element.
+#names - This selector is for selecting an id . Put a #, followed by the name of the id . ID names should never start with a number.
+* The asteriks selects all the elements within the body tag . Everything in that tag will be edited . This is the universal selector . Just put the * followed by {}
+h1 , h2 , p - This will group all these selectors . They will all have the same styles applied to them simulatanouesly . Simply seperate the selectors with a "," to group them .
+
+Note: Do not add a space between the property value and the unit:
+Incorrect (space): margin-left: 20 px;
+Correct (nospace): margin-left: 20px;
+
+*There is a difference between the id selector and the class selector .Only an ID is only used to identify one single element in our HTML. IDs are only used when one element on the page should have a particular style applied to it.
+However, a class can be used to identify more than one HTML element.
