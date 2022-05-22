@@ -1,10 +1,37 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-size: 22px;
+}
+
+body ,h2 {
+    padding: 0;
+    margin: 0;
 }
 
 #hero-msg h1 , #hero-msg h4, .button-box, main section {
     text-align: center;
+     
+
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+.msg p {font-size: 8em; line-height: 1.5em;}
+
+.book , .join {
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+h1 ,h4 {
+    font-family:cursive;
+    font-size: xx-large;
+    font-style: oblique;
 }
 
 #background {
@@ -49,4 +76,52 @@ footer h3 a:hover {
 
 h1 , a {
     color: rgb(0, 41, 103);
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-image {
+    border: 10px solid #000000;
+}
+
+
+main section img {
+    box-sizing: border-box;
 }
