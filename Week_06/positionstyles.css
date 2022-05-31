@@ -1,5 +1,9 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
+* {
+  box-sizing: border-box;
+}
+
 .content1  {
   /* This is the parent of the activity 1 boxes. */
 display: grid;
@@ -149,6 +153,7 @@ justify-items: center;
   
   z-index: -1;
   float: left;
+  margin: 1em
    
    
 
