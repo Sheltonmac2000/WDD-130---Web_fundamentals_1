@@ -8,7 +8,7 @@
   /* This is the parent of the activity 1 boxes. */
 display: grid;
 grid-template-columns: 1fr 1fr;
-justify-items: center;
+align-items: stretch;
 grid-gap: 20px;
 }
 .red1 { 
@@ -16,6 +16,8 @@ grid-gap: 20px;
   width: 200%; 
   height: 100px; 
   background-color: red; 
+  align-self: flex-start;
+
 
 } 
 .green1 {

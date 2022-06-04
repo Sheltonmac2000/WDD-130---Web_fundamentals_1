@@ -75,7 +75,7 @@ There are five different position values:
 - relative
 - fixed
 - absolute
-- sticky
+- stickyπ
 
 Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first.
 They also work differently depending on the position value.
@@ -92,3 +92,13 @@ div {
     position : relative
 }
 
+
+*justify-content
+Aligns the grid container along the inline axis (by default horizontal). This only works when the grid is narrower than the space available.
+*justify-items
+Aligns the grid item contents along the inline axis (by default horizontal). This only works when the contents of a grid cell are narrower than the grid cell.
+*align-content
+Aligns the grid container along the block axis (by default vertical). This only works when the grid is shorter than the space available.
+*align-items
+Aligns the grid item contents along the block axis (by default vertical). This only works when the contents of a grid cell are shorter than the grid cell.
+So to review, justify aligns horizontal by default, align takes care of the other direction (vertical alignment by default). If we want to align the grid container, we use the content suffix. If we want to align the contents of the grid items within the grid cells, then we use items.
